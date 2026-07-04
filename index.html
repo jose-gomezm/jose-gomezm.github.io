@@ -3,9 +3,63 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hello World</title>
+    <title>the_greyman</title>
+    <style>
+        :root {
+            --bg: #f4f3f1;
+            --ink: #1c1c1a;
+            --line: #d8d6d1;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        html, body {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 2rem;
+            padding: 4rem 1.5rem;
+            background: var(--bg);
+            color: var(--ink);
+            font-family: "Iowan Old Style", "Palatino Linotype", Georgia, serif;
+        }
+
+        h1 {
+            margin: 0;
+            font-size: 1.4rem;
+            font-weight: 500;
+            letter-spacing: 0.12em;
+            text-transform: uppercase;
+            padding-bottom: 0.75rem;
+            border-bottom: 1px solid var(--line);
+        }
+
+        figure {
+            margin: 0;
+            max-width: 40rem;
+            width: 100%;
+        }
+
+        img {
+            display: block;
+            width: 100%;
+            height: auto;
+            border: 1px solid var(--line);
+        }
+    </style>
 </head>
 <body>
-    <h1>Hello, World!</h1>
+    <h1>the_greyman</h1>
+    <figure>
+        <img src="img/IMG_7743.JPG" alt="">
+    </figure>
 </body>
 </html>
